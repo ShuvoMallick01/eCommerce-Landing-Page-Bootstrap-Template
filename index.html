@@ -35,7 +35,7 @@
 
   <body>
     <!-- Header/Navbar Start -->
-    <header class="header-area py-0">
+    <header class="header-area py-0 sticky-top shadow-sm">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
           <a class="navbar-brand" href="./index.html"
@@ -110,7 +110,7 @@
       <div class="container">
         <div class="row services">
           <!-- Single Service -->
-          <div class="col-md-4 bg-light align-items-center py-4 px-0">
+          <div class="col-lg-4 col-md-6 bg-light align-items-center py-4 px-0">
             <div
               class="service d-flex align-items-center justify-content-center px-3 border-end"
             >
@@ -123,7 +123,7 @@
           </div>
 
           <!-- Single Service -->
-          <div class="col-md-4 bg-light align-items-center py-4 px-0">
+          <div class="col-lg-4 col-md-6 bg-light align-items-center py-4 px-0">
             <div
               class="service d-flex align-items-center justify-content-center px-3 border-end"
             >
@@ -137,7 +137,7 @@
           </div>
 
           <!-- Single Service -->
-          <div class="col-md-4 bg-light align-items-center py-4 px-0">
+          <div class="col-lg-4 col-md-6 bg-light align-items-center py-4 px-0">
             <div
               class="service d-flex align-items-center justify-content-center px-3"
             >
@@ -543,16 +543,26 @@
 
     <!-- Footer start -->
     <footer>
-      <div
-        class="container footer-area d-flex justify-content-between align-items-center"
-      >
-        <img src="/assets/images/payment.png" alt="Bank Cards" />
-        <p>Riode eCommerce 2022. All Rights Reserved</p>
-        <div class="social-icons">
-          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <div class="container">
+        <div class="row">
+          <div
+            class="d-flex flex-column flex-lg-row py-4 justify-content-between align-items-center"
+          >
+            <img
+              src="/assets/images/payment.png"
+              class="img-fluid card mb-3 md-md-0"
+              alt="Bank Cards"
+            />
+            <p class="text-light d-inline text-center mb-2 mb-lg-0">
+              Riode eCommerce 2022. All Rights Reserved
+            </p>
+            <div class="social-icons d-flex gap-4 fs-5 text-white">
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

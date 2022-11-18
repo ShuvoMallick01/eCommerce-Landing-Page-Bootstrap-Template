@@ -1,10 +1,11 @@
-# eCommerce Landing Page HTML Template
+# eCommerce Landing Page Bootstrap Template
 
-Live Visit: https://shuvomallick01.github.io/eCommerce-Landing-Page-HTML-Template/
+Live Visit: https://shuvomallick01.github.io/eCommerce-Landing-Page-Bootstrap-Template/
 
 ## Tools/Technologies
 
 - HTML/CSS
+- Bootstrap
 - Google Fonts
 - More
 

@@ -98,107 +98,76 @@ Keywords: eCommerce Website, Template, bootstrap template etc.
 .categories-area .category button {
   margin-top: -65px;
 }
-
 /* ===== Categories END ===== */
 
-/* ===== START ===== */
-/* ===== END ===== */
-
-/* ===== START ===== */
-/* ===== END ===== */
-
-/* ===== START ===== */
-/* ===== END ===== */
-
-/* ===== START ===== */
-/* ===== END ===== */
-
-/* Best Selling Products area start */
-.best-selling-products {
-  margin-bottom: 60px;
-  flex-wrap: wrap;
+/* ===== Best Selling Products START ===== */
+.best-selling-area {
 }
 
-.single-product {
-  width: 24%;
+.best-selling-area .single-product {
+  cursor: pointer;
 }
 
-.discount {
+.best-selling-area .single-product:hover {
+  box-shadow: var(--shadow-default);
+  transition: all 300ms ease;
+}
+
+.best-selling-area .discount {
   position: relative;
 }
 
-.discount::before {
+.best-selling-area .discount::before {
   content: "5% Off";
   position: absolute;
   left: 10px;
   top: 10px;
   z-index: 1;
-  background-color: #27c;
+  background-color: var(--bs-primary);
   font-size: 14px;
   color: #fff;
   padding: 3px 8px;
   line-height: 1;
 }
 
-.single-product:hover {
-  cursor: pointer;
-}
-
 .single-product:hover .product-btn-group {
   right: 10px;
 }
 
-.product-top-img {
-  max-height: 330px;
-  overflow: hidden;
-  position: relative;
-}
-
-.product-top-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.product-btn-group {
-  position: absolute;
+.best-selling-area .product-btn-group {
   right: -50px;
   top: 10px;
-  flex-direction: column;
-  gap: 50px;
+
   transition: right 0.3s;
 }
 
-.product-btn {
+.best-selling-area .product-btn {
   width: 40px;
   height: 40px;
-  background-color: #fff;
+  background-color: var(--bs-white);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.product-btn-group a {
+.best-selling-area .product-btn-group a {
   margin-bottom: 10px;
 }
 
 .product-btn-group a i {
-  color: #666;
+  color: var(--bs-gray-600);
 }
 
-.product-content {
-  text-align: center;
-  color: #999;
-  margin-top: 5px;
+.best-selling-area .product-content {
+  color: var(--bs-gray-600);
 }
 
-.product-content > p {
+.best-selling-area .product-content > p {
   font-size: 11px;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
-.product-content h4 {
+.best-selling-area .product-content h4 {
   font-size: 16px;
   font-weight: 500;
 }
@@ -206,8 +175,6 @@ Keywords: eCommerce Website, Template, bootstrap template etc.
 .product-content h6 {
   font-size: 18px;
   font-weight: 600;
-  color: #222;
-  padding: 5px 0;
 }
 
 .product-reviews {
@@ -217,18 +184,23 @@ Keywords: eCommerce Website, Template, bootstrap template etc.
 
 .product-reviews .rating i {
   font-size: 10px;
-  color: #d26e4b;
-  line-height: 1;
-}
-
-.rating {
-  line-height: 1;
 }
 
 .product-reviews p {
   font-size: 12px;
   font-weight: 400;
 }
+/* ===== Best Selling Products END ===== */
+
+/* ===== START ===== */
+/* ===== END ===== */
+
+/* ===== START ===== */
+/* ===== END ===== */
+
+/* ===== START ===== */
+/* ===== END ===== */
+
 /* Best Selling Products area end */
 /* ================================================ */
 /* summer season sale start */

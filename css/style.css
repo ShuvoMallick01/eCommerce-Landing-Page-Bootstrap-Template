@@ -8,17 +8,20 @@ Keywords: eCommerce Website, Template, bootstrap template etc.
 
 */
 
-/* =========== CSS FILES LIST =========== */
+/* =========== INDEX - CSS FILES =========== */
 /* ----- Utilities CSS ----- */
 /* ----- Style CSS ----- */
-/* =========== CSS FILES LIST =========== */
+/* =========== INDEX - CSS FILES =========== */
 
 /* ===== Style File INDEX ===== */
 /* 
   1. Header Section
   2. Hero/Banner Section
   3. Category Section
-  11. Footer Section
+  4. Best Selling
+  5. Summer Sale
+  6. Featured Articles 
+  7. Footer Section
   */
 /* ===== Style File INDEX ===== */
 
@@ -91,7 +94,7 @@ Keywords: eCommerce Website, Template, bootstrap template etc.
 }
 
 .categories-area .category:hover {
-  box-shadow: var(--shadow-default);
+  box-shadow: var(--shadow-default) !important;
   transition: all 300ms ease;
 }
 
@@ -106,7 +109,7 @@ Keywords: eCommerce Website, Template, bootstrap template etc.
 }
 
 .best-selling-area .single-product:hover {
-  box-shadow: var(--shadow-default);
+  box-shadow: var(--shadow-default) !important;
   transition: all 300ms ease;
 }
 
@@ -225,6 +228,11 @@ Keywords: eCommerce Website, Template, bootstrap template etc.
 /* =====  Summer sale end =====   */
 
 /*  =====  Featured Articles start ===== */
+.featured-articles .single-article:hover {
+  box-shadow: var(--shadow-default) !important;
+  transition: all 300ms ease;
+}
+
 .featured-articles .article-top-img {
   cursor: pointer;
 }
@@ -262,7 +270,14 @@ footer {
 footer .img {
   width: 20px;
 }
+
 footer .social-icons a {
   color: var(--bs-gray-400);
+}
+
+footer .social-icons a:hover {
+  color: var(--bs-primary);
+  transform: scale(1) !important;
+  transition: all 300ms ease-in-out;
 }
 /* ===== Footer end ===== */
